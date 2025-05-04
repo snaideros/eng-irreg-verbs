@@ -99,9 +99,15 @@
       keys.forEach(k => {
         console.log(k)
         if (k === verb.input) return;
-        color.value[`${ndx}_${k}`] = verb[k] === answers.value[`${ndx}_${k}`]?.toLowerCase()?.trim()
-          ? 'green'
-          : 'red';
+        if (k === 'translation') {
+          color.value[`${ndx}_${k}`] = verb[k].includes(answers.value[`${ndx}_${k}`]?.toLowerCase()?.trim())
+            ? 'green'
+            : 'red';
+        } else {
+          color.value[`${ndx}_${k}`] = verb[k] === answers.value[`${ndx}_${k}`]?.toLowerCase()?.trim()
+            ? 'green'
+            : 'red';
+        }
       })
     });
   };
