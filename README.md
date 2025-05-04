@@ -1,0 +1,1 @@
+This tool aims to help learning and testing knowledge about english irregular verbs.
