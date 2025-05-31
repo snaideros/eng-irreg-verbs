@@ -113,12 +113,18 @@
   };
 
   const appStore = useAppStore();
-  const { verbsList } = storeToRefs(appStore);
+  const { verbsList, selectedFamilies } = storeToRefs(appStore);
   const keys = ['bv', 'preterite', 'past_participe', 'translation'];
   const answers = ref({});
   const color = ref({});
   const exercise = computed(() => {
-    const list = [].concat(...verbsList.value.map(vl => vl.verbs.map(v => {
+    const filteredVerbsList = selectedFamilies.value.length == 0
+      ? verbsList.value
+      : verbsList.value.reduce((a, v, n) => {
+        if (selectedFamilies.value.includes(n)) a.push(v);
+        return a;
+      }, []);
+    const list = [].concat(...filteredVerbsList.map(vl => vl.verbs.map(v => {
       const input = keys.at(Math.floor(Math.random() * 4));
       const out = {
         ...v,

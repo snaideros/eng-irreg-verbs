@@ -5,52 +5,52 @@
         "preterite": "built",
         "past_participe": "built",
         "translation": ["construire"]
-    },{
+    }, {
         "bv": "dream",
         "preterite": "dreamt",
         "past_participe": "dreamt",
         "translation": ["rêver"]
-    },{
+    }, {
         "bv": "feel",
         "preterite": "felt",
         "past_participe": "felt",
         "translation": ["(se) sentir", "ressentir"]
-    },{
+    }, {
         "bv": "keep",
         "preterite": "kept",
         "past_participe": "kept",
         "translation": ["garder"]
-    },{
+    }, {
         "bv": "learn",
         "preterite": "learnt",
         "past_participe": "learnt",
         "translation": ["apprendre"]
-    },{
+    }, {
         "bv": "lose",
         "preterite": "lost",
         "past_participe": "lost",
         "translation": ["perdre"]
-    },{
+    }, {
         "bv": "mean",
         "preterite": "meant",
         "past_participe": "meant",
         "translation": ["vouloir dire", "signifier"]
-    },{
+    }, {
         "bv": "meet",
         "preterite": "met",
         "past_participe": "met",
         "translation": ["rencontrer"]
-    },{
+    }, {
         "bv": "send",
         "preterite": "sent",
         "past_participe": "sent",
         "translation": ["envoyer"]
-    },{
+    }, {
         "bv": "sleep",
         "preterite": "slept",
         "past_participe": "slept",
         "translation": ["dormir"]
-    },{
+    }, {
         "bv": "spend",
         "preterite": "spent",
         "past_participe": "spent",
@@ -63,27 +63,27 @@
         "preterite": "began",
         "past_participe": "begun",
         "translation": ["commencer"]
-    },{
+    }, {
         "bv": "drink",
         "preterite": "drank",
         "past_participe": "drunk",
         "translation": ["boire"]
-    },{
+    }, {
         "bv": "drive",
         "preterite": "drove",
         "past_participe": "driven",
         "translation": ["conduire"]
-    },{
+    }, {
         "bv": "ride",
         "preterite": "rode",
         "past_participe": "ridden",
         "translation": ["monter (à cheval, etc.)"]
-    },{
+    }, {
         "bv": "sing",
         "preterite": "sang",
         "past_participe": "sung",
         "translation": ["chanter"]
-    },{
+    }, {
         "bv": "write",
         "preterite": "wrote",
         "past_participe": "written",
@@ -96,12 +96,12 @@
         "preterite": "cut",
         "past_participe": "cut",
         "translation": ["couper"]
-    },{
+    }, {
         "bv": "let",
         "preterite": "let",
         "past_participe": "let",
         "translation": ["laisser", "permettre", "louer"]
-    },{
+    }, {
         "bv": "put",
         "preterite": "put",
         "past_participe": "put",
@@ -114,22 +114,22 @@
         "preterite": "brought",
         "past_participe": "brought",
         "translation": ["apporter"]
-    },{
+    }, {
         "bv": "buy",
         "preterite": "bought",
         "past_participe": "bought",
         "translation": ["acheter"]
-    },{
+    }, {
         "bv": "catch",
         "preterite": "caught",
         "past_participe": "caught",
         "translation": ["attraper"]
-    },{
+    }, {
         "bv": "fight",
         "preterite": "fought",
         "past_participe": "fought",
         "translation": ["(se) battre", "combattre"]
-    },{
+    }, {
         "bv": "think",
         "preterite": "thought",
         "past_participe": "thought",
@@ -142,15 +142,162 @@
         "preterite": "flew",
         "past_participe": "flown",
         "translation": ["voler"]
-    },{
+    }, {
         "bv": "know",
         "preterite": "knew",
         "past_participe": "known",
         "translation": ["connaitre", "savoir"]
-    },{
+    }, {
         "bv": "throw",
         "preterite": "threw",
         "past_participe": "thrown",
         "translation": ["jeter"]
+    }]
+}, {
+    "family": "The sound '/əʊ/'",
+    "verbs": [{
+        "bv": "break",
+        "preterite": "broke",
+        "past_participe": "broken",
+        "translation": ["casser"]
+    }, {
+        "bv": "choose",
+        "preterite": "chose",
+        "past_participe": "chosen",
+        "translation": ["choisir"]
+    }, {
+        "bv": "sell",
+        "preterite": "sold",
+        "past_participe": "sold",
+        "translation": ["vendre"]
+    }, {
+        "bv": "speak",
+        "preterite": "spoke",
+        "past_participe": "spoken",
+        "translation": ["parler"]
+    }, {
+        "bv": "tell",
+        "preterite": "told",
+        "past_participe": "told",
+        "translation": ["dire"]
+    }, {
+        "bv": "wake",
+        "preterite": "woke",
+        "past_participe": "woken",
+        "translation": ["(se) réveiller"]
+    }]
+}, {
+    "family": "'-d' ending in the preterite",
+    "verbs": [{
+        "bv": "do",
+        "preterite": "did",
+        "past_participe": "done",
+        "translation": ["faire"]
+    }, {
+        "bv": "have",
+        "preterite": "had",
+        "past_participe": "had",
+        "translation": ["avoir"]
+    }, {
+        "bv": "hear",
+        "preterite": "heard",
+        "past_participe": "heard",
+        "translation": ["entendre"]
+    }, {
+        "bv": "hide",
+        "preterite": "hid",
+        "past_participe": "hidden",
+        "translation": ["cacher"]
+    }]
+}, {
+    "family": "Auxiliary",
+    "verbs": [{
+        "bv": "be",
+        "preterite": "was/were",
+        "past_participe": "been",
+        "translation": ["être"]
+    }]
+}, {
+    "family": "True irregular verbs",
+    "verbs": [{
+        "bv": "come",
+        "preterite": "came",
+        "past_participe": "come",
+        "translation": ["venir"]
+    }, {
+        "bv": "eat",
+        "preterite": "ate",
+        "past_participe": "eaten",
+        "translation": ["manger"]
+    }, {
+        "bv": "fall",
+        "preterite": "fell",
+        "past_participe": "fallen",
+        "translation": ["tomber"]
+    }, {
+        "bv": "find",
+        "preterite": "found",
+        "past_participe": "found",
+        "translation": ["trouver"]
+    }, {
+        "bv": "forget",
+        "preterite": "forgot",
+        "past_participe": "forgotten",
+        "translation": ["oublier"]
+    }, {
+        "bv": "go",
+        "preterite": "went",
+        "past_participe": "gone",
+        "translation": ["aller"]
+    }, {
+        "bv": "make",
+        "preterite": "made",
+        "past_participe": "made",
+        "translation": ["faire", "fabriquer"]
+    }, {
+        "bv": "pay",
+        "preterite": "paid",
+        "past_participe": "paid",
+        "translation": ["payer"]
+    }, {
+        "bv": "run",
+        "preterite": "ran",
+        "past_participe": "run",
+        "translation": ["courir"]
+    }, {
+        "bv": "say",
+        "preterite": "said",
+        "past_participe": "said",
+        "translation": ["dire"]
+    }, {
+        "bv": "see",
+        "preterite": "saw",
+        "past_participe": "seen",
+        "translation": ["voir"]
+    }, {
+        "bv": "shoot",
+        "preterite": "shot",
+        "past_participe": "shot",
+        "translation": ["tirer"]
+    }, {
+        "bv": "sit",
+        "preterite": "sat",
+        "past_participe": "sat",
+        "translation": ["s'asseoir"]
+    }, {
+        "bv": "take",
+        "preterite": "took",
+        "past_participe": "taken",
+        "translation": ["prendre"]
+    }, {
+        "bv": "understand",
+        "preterite": "understood",
+        "past_participe": "understood",
+        "translation": ["comprendre"]
+    }, {
+        "bv": "win",
+        "preterite": "won",
+        "past_participe": "won",
+        "translation": ["gagner"]
     }]
 }]

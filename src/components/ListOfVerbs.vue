@@ -8,8 +8,17 @@
         <v-card
           elevation="3"
         >
-          <v-card-title class="text-center pa-3" :class="{ [`bg-${colors[ndx]}`]: true }">
-            {{ f.family }}
+          <v-card-title class="text-center pa-3 d-flex align-center" :class="{ [`bg-${colors[ndx]}`]: true }">
+            <v-checkbox-btn
+              v-model="selectedFamilies"
+              color="white"
+              hide-details
+              inline
+              :value="ndx"
+            />
+            <div class="flex-grow-1 text-center">
+              {{ f.family }}
+            </div>
           </v-card-title>
           <v-card-text class="pa-0 pt-2">
             <v-table
@@ -64,8 +73,8 @@
     'amber',
     //'orange',
     'deep-orange',
-    //'brown',
+    'brown',
   ];
   const appStore = useAppStore();
-  const { verbsList } = storeToRefs(appStore);
+  const { verbsList, selectedFamilies } = storeToRefs(appStore);
 </script>
